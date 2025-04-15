@@ -50,6 +50,23 @@ export class Car {
             // this.tank += availableVolume;
             this.tank = this.tankMax;
         }
+
+    engineIsOn() {
+        if (this.engineIsOn){
+                return `Error: engline is already turned on.`
+        } 
+        if (this.tank === 0) {
+                return `Error: engline can not be turned on, because need some gas`
+        }
+        this.engineIsOn = true;
+        } 
+    engineIsOff () {
+        if (!this.engineIsOn) {
+            return `Error: engine is already turned off`
+        }
+        this.engineIsOn = false;
+    }
+
     }
 }
-
+// pabaigti patiems!!!!!!!!!!!!
