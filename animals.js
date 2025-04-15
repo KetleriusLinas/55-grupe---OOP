@@ -13,12 +13,14 @@ Animal:
         Shark
         Dolphin
         Tuna
+        Pike
 
 */
 
 import { Cat } from "./js/Cat.js";
 import { Dog } from "./js/Dog.js";
 import { Hamster } from "./js/Hamster.js";
+import { Pike } from "/js/Pike.js";
 console.log('------Dog------');
 const rex = new Dog ('Rex', 'black')
 
@@ -40,5 +42,8 @@ const keksas = new Hamster ('Keksas', 'brown')
 console.log(keksas);
 console.log(keksas.hi());
 console.log(keksas.voice());
-console.log();
 
+console.log();
+console.log('------lydeka------');
+
+const lydeka = new Pike ('Lydeka');
