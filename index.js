@@ -124,3 +124,11 @@ console.log();
 
 console.log('labas'.split(''));
 
+
+
+// kangaroo=(a,b,c,d,e=(a-c)/(d-b))=>e>0&&e==~~e
+
+function kangaroo (a, b, c, d, e = (a - c) / (d - b)) {
+//         boolean &&  boolean
+    return (e > 0) && (e ==~~ e)
+}
